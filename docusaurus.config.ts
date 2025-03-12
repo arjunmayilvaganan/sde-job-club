@@ -19,7 +19,6 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'arjunmayilvaganan', // Usually your GitHub org/user name.
   projectName: 'SDE Job Club', // Usually your repo name.
-  deploymentBranch: 'main',
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
