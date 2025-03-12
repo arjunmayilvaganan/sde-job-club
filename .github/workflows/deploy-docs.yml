@@ -20,8 +20,12 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+
       - name: Build website
         run: npm run build
+
+      - name: Add CNAME for custom domain
+        run: echo 'sdejob.club' > build/CNAME
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
