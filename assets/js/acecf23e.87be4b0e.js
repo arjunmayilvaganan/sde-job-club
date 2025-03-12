@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksde_job_club=self.webpackChunksde_job_club||[]).push([[1903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/blog","blogTitle":"Blog","authorsListPath":"/blog/authors"}')}}]);
